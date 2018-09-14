@@ -57,6 +57,9 @@ def like
     end
 end
 
+def chat
+  @post = Post.find(params[:id])
+end
 
 # solamente los metodos que se mandan a llamar en si mismo
 private

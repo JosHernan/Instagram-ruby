@@ -3,7 +3,7 @@ Rails.application.routes.draw do
                                         as: :link_through
   get 'notifications', to: 'notifications#index'
   get 'profiles/show'
-
+  get 'posts/:id/chat', to: 'posts#chat', as: 'post_chat'
   devise_for :users, :controllers => { registrations: 'registrations' }
   root 'posts#index'
   

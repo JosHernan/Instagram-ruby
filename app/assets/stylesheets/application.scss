@@ -161,7 +161,9 @@ body {
 .registration-bg {
   padding-top: 4em;
   height: 100%;
-  background-image: image-url('regbackg.jpg');
+  /*background-image: image-url('regbackg.jpg');*/
+  
+  background: #f5efe6;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -169,9 +171,11 @@ body {
 }
 
 .login-bg {
+
   padding-top: 4em;
   height: 100%;
-  background-image: image-url('loginbg.jpg');
+  background-image: image-url('fon.jpg');
+
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -313,4 +317,19 @@ body {
     background-color: white;
     padding: 1em;
   }
+}
+
+.brand-wrapper {
+    margin: 45px auto 20px auto;
+    padding: 110px 0 0;
+    text-align: center;
+    width: 100%;
+    max-width: 988px;
+    background: no-repeat center 30px;
+    background-size: 280px;
+}
+
+.bc3 .brand-wrapper {
+    background-image: url(regis.png);
+    background-position: center 15px;
 }
